@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "recipe-backend-wyp3.onrender.com",
+    "https://introtosoftwareengineeringwebsite.netlify.app/",
     "localhost",
     "127.0.0.1",
 ]
