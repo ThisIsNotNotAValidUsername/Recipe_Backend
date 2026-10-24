@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "recipe-backend-wyp3.onrender.com",
-    "https://introtosoftwareengineeringwebsite.netlify.app/",
     "localhost",
     "127.0.0.1",
 ]
@@ -133,5 +132,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:5173",
-    "https://YOUR-NETLIFY-SITE.netlify.app",
+    "https://introtosoftwareengineeringwebsite.netlify.app/",
 ]
