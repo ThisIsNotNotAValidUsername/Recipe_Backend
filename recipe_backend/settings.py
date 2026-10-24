@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-$fnqan=!_*&1cd9#nlw326c!py(5s0m##_2_jyo*23m&#1mi@5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "recipe-backend-wyp3.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
